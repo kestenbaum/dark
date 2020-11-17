@@ -77,7 +77,31 @@ before {
 
 @media screen and (max-width: 785px) {
   .header_nav {
-    display: none;
+    display: flex;
+    position: absolute;
+    right: -100%;
+    bottom: -130%;
+    background: black;
+  }
+
+  .header_menu {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    align-items: center;
+  }
+  .header_menu li {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid white;
+    margin: 0;
+  }
+
+  .header_wrap {
+    position: relative;
   }
 
   .header_burger {
