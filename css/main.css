@@ -1,0 +1,143 @@
+*,
+after,
+before {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 0;
+  list-style: none;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.container {
+  width: 100%;
+  max-width: 1242px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  background: black;
+}
+
+.header_wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 120px;
+}
+
+.header_logo {
+  display: flex;
+  flex: 1 1 33.333%;
+  cursor: pointer;
+}
+
+.header_nav {
+  display: flex;
+  flex: 1 1 33.333%;
+  justify-content: center;
+}
+
+.header_menu {
+  display: flex;
+}
+.header_menu li {
+  margin: 0 25px;
+}
+.header_menu li a {
+  font-size: 20px;
+  color: white;
+}
+
+.header_login {
+  display: flex;
+  flex: 1 1 33.333%;
+  justify-content: flex-end;
+}
+.header_login a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 50px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.header_login a span {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.header_burger {
+  display: none;
+}
+
+@media screen and (max-width: 785px) {
+  .header_nav {
+    display: none;
+  }
+
+  .header_burger {
+    display: flex;
+  }
+
+  .header_login {
+    margin-right: 15px;
+  }
+
+  .menu_btn {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 50px;
+    height: 50px;
+  }
+  .menu_btn span {
+    position: absolute;
+    height: 5px;
+    width: 75%;
+    background-color: white;
+    top: 50%;
+    right: 0;
+  }
+  .menu_btn span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 50%;
+    right: 0;
+    background-color: white;
+    transform: translateY(10px);
+  }
+  .menu_btn span:before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 50px;
+    background-color: white;
+    transform: translateY(-10px);
+    right: 0;
+  }
+
+  .menu_btn_active span {
+    height: 0;
+  }
+  .menu_btn_active span:after {
+    width: 100%;
+    transform: rotate(35deg);
+  }
+  .menu_btn_active span:before {
+    width: 100%;
+    transform: rotate(-35deg);
+  }
+}
+@media screen and (max-width: 425px) {
+  .header_login {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
