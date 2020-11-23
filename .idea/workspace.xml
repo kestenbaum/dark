@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1580aeaf-d7ed-48e1-9684-f7804cd3942e" name="Default Changelist" comment="" />
+    <list default="true" id="1580aeaf-d7ed-48e1-9684-f7804cd3942e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +23,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kPlljaWSMv93uZU62arAcIRqzY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,7 +35,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/script" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -49,7 +59,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605610260458</updated>
-      <workItem from="1605610261543" duration="5643000" />
+      <workItem from="1605610261543" duration="6066000" />
+      <workItem from="1605619178255" duration="9000" />
+      <workItem from="1605623726308" duration="3038000" />
     </task>
     <servers />
   </component>
@@ -61,10 +73,14 @@
       <screen x="0" y="40" width="1440" height="860" />
     </state>
     <state x="389" y="248" key="EditFileWatcherDialog/0.40.1440.860@0.40.1440.860" timestamp="1605610393604" />
-    <state x="427" y="174" width="585" height="592" key="find.popup" timestamp="1605612837373">
+    <state x="500" y="225" key="FileChooserDialogImpl" timestamp="1605619185475">
       <screen x="0" y="40" width="1440" height="860" />
     </state>
-    <state x="427" y="174" width="585" height="592" key="find.popup/0.40.1440.860@0.40.1440.860" timestamp="1605612837373" />
+    <state x="500" y="225" key="FileChooserDialogImpl/0.40.1440.860@0.40.1440.860" timestamp="1605619185475" />
+    <state x="427" y="174" width="585" height="592" key="find.popup" timestamp="1605625873199">
+      <screen x="0" y="40" width="1440" height="860" />
+    </state>
+    <state x="427" y="174" width="585" height="592" key="find.popup/0.40.1440.860@0.40.1440.860" timestamp="1605625873199" />
     <state x="376" y="215" key="run.anything.popup" timestamp="1605614277285">
       <screen x="0" y="40" width="1440" height="860" />
     </state>

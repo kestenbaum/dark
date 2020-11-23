@@ -26,6 +26,8 @@ before {
   justify-content: space-around;
   align-items: center;
   height: 120px;
+  border-bottom: 1px solid white;
+  margin-bottom: 100px;
 }
 
 .header_logo {
@@ -64,6 +66,12 @@ before {
   height: 50px;
   border: 2px solid white;
   cursor: pointer;
+  transition: all linear 0.2s;
+}
+.header_login a:hover {
+  background: #4452FE;
+  border: 1px solid #4452FE;
+  box-shadow: 0 0 10px #4452FE;
 }
 .header_login a span {
   font-size: 20px;
@@ -75,19 +83,74 @@ before {
   display: none;
 }
 
+.header_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header_main h1 {
+  font-size: 64px;
+  color: white;
+  width: 45%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.header_main p {
+  font-size: 18px;
+  width: 40%;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.header_buttons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.header_buttons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 25px;
+  color: white;
+  width: 140px;
+  height: 50px;
+  border: 1px solid white;
+  transition: all linear 0.2s;
+}
+.header_buttons a:hover {
+  background: #4452FE;
+  border: 1px solid #4452FE;
+  box-shadow: 0 0 10px #4452FE;
+}
+.header_buttons a span {
+  font-size: 18px;
+}
+
 @media screen and (max-width: 785px) {
   .header_nav {
-    display: flex;
+    display: none;
     position: absolute;
     right: -100%;
     bottom: -130%;
     background: black;
+    top: 15px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .header_active {
+    display: flex;
+    right: -10px;
+    border: 1px solid white;
+    box-shadow: 0 0 10px white;
   }
 
   .header_menu {
     display: flex;
     flex-direction: column;
-    padding: 10%;
+    justify-content: center;
     align-items: center;
   }
   .header_menu li {
@@ -157,10 +220,33 @@ before {
     width: 100%;
     transform: rotate(-35deg);
   }
+
+  .header_main h1 {
+    width: 70%;
+    font-size: 48px;
+  }
+  .header_main p {
+    width: 70%;
+  }
 }
 @media screen and (max-width: 425px) {
   .header_login {
     display: none;
+  }
+
+  .header_main h1 {
+    font-size: 32px;
+  }
+  .header_main p {
+    font-size: 18px;
+  }
+
+  .header_buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header_buttons a {
+    margin: 10px 0;
   }
 }
 

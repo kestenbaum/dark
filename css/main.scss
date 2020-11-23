@@ -28,6 +28,8 @@ before{
   justify-content: space-around;
   align-items: center;
   height: 120px;
+  border-bottom: 1px solid white;
+  margin-bottom: 100px;
 }
 
 .header_logo{
@@ -57,6 +59,7 @@ before{
   display: flex;
   flex: 1 1 33.333%;
   justify-content: flex-end;
+
   a{
     display: flex;
     align-items: center;
@@ -65,6 +68,12 @@ before{
     height: 50px;
     border: 2px solid white;
     cursor: pointer;
+    transition: all linear .2s;
+    &:hover{
+      background: #4452FE;
+      border: 1px solid #4452FE;
+      box-shadow: 0 0 10px #4452FE;
+    }
     span{
       font-size: 20px;
       color: white;
@@ -77,20 +86,76 @@ before{
   display: none;
 }
 
+
+.header_main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1{
+    font-size: 64px;
+    color: white;
+    width: 45%;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  p{
+    font-size: 18px;
+    width: 40%;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+
+.header_buttons{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 25px;
+    color: white;
+    width: 140px;
+    height: 50px;
+    border: 1px solid white;
+    transition: all linear .2s;
+    &:hover{
+      background: #4452FE;
+      border: 1px solid #4452FE;
+      box-shadow: 0 0 10px #4452FE;
+    }
+    span{
+      font-size: 18px;
+    }
+  }
+}
+
+
 //Media
 
 @media screen and (max-width: 785px) {
   .header_nav{
-    display: flex;
+    display: none;
     position: absolute;
     right: -100%;
     bottom: -130%;
     background: black;
+    top: 15px;
+    width: 250px;
+    height: 250px;
+  }
+  .header_active{
+    display: flex;
+    right: -10px;
+    border: 1px solid white;
+    box-shadow: 0 0 10px white;
   }
   .header_menu{
     display: flex;
     flex-direction: column;
-    padding: 10%;
+    justify-content: center;
     align-items: center;
     li{
       width: 100px;
@@ -157,10 +222,36 @@ before{
       transform: rotate(-35deg);
     }
   }
+  .header_main{
+    h1{
+      width: 70%;
+      font-size: 48px;
+    }
+    p{
+      width: 70%;
+    }
+  }
 }
+
+
 
 @media screen and (max-width: 425px){
   .header_login{
     display: none;
+  }
+  .header_main{
+    h1{
+      font-size: 32px;
+    }
+    p{
+      font-size: 18px;
+    }
+  }
+  .header_buttons{
+    flex-direction: column;
+    align-items: center;
+    a{
+      margin: 10px 0;
+    }
   }
 }
