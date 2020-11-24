@@ -2,31 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1580aeaf-d7ed-48e1-9684-f7804cd3942e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fonts/Texturina-Italic-VariableFont_opsz,wght.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Texturina-Italic-VariableFont_opsz,wght.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Texturina-Italic-VariableFont_opsz,wght.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Texturina-Italic-VariableFont_opsz,wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Texturina-Italic-VariableFont_opsz,wght.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Texturina-VariableFont_opsz,wght.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Texturina-VariableFont_opsz,wght.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Texturina-VariableFont_opsz,wght.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Texturina-VariableFont_opsz,wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Texturina-VariableFont_opsz,wght.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Boards.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Chat Bot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Line Chart 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Macbook Pro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/dnk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/eat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/icons_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/icons_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/icons_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/icons_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/icons_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/icons_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/ufo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/main_screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/screens.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
@@ -93,7 +68,7 @@
       <workItem from="1605970522222" duration="12000" />
       <workItem from="1605973875794" duration="287000" />
       <workItem from="1606100273932" duration="4744000" />
-      <workItem from="1606105484413" duration="1219000" />
+      <workItem from="1606105484413" duration="1734000" />
     </task>
     <servers />
   </component>
@@ -109,6 +84,10 @@
       <screen x="0" y="40" width="1440" height="860" />
     </state>
     <state x="500" y="225" key="FileChooserDialogImpl/0.40.1440.860@0.40.1440.860" timestamp="1606100278307" />
+    <state x="441" y="211" width="540" height="524" key="StructurePopup" timestamp="1606107226498">
+      <screen x="0" y="40" width="1440" height="860" />
+    </state>
+    <state x="441" y="211" width="540" height="524" key="StructurePopup/0.40.1440.860@0.40.1440.860" timestamp="1606107226498" />
     <state x="427" y="174" width="585" height="592" key="find.popup" timestamp="1605966600384">
       <screen x="0" y="40" width="1440" height="860" />
     </state>
