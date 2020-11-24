@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +35,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../traning" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../traning/js/main.js" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -69,6 +70,10 @@
       <workItem from="1605973875794" duration="287000" />
       <workItem from="1606100273932" duration="4744000" />
       <workItem from="1606105484413" duration="1734000" />
+      <workItem from="1606107256493" duration="220000" />
+      <workItem from="1606152697932" duration="286000" />
+      <workItem from="1606153004466" duration="76000" />
+      <workItem from="1606217386346" duration="4569000" />
     </task>
     <servers />
   </component>
@@ -80,14 +85,14 @@
       <screen x="0" y="40" width="1440" height="860" />
     </state>
     <state x="389" y="248" key="EditFileWatcherDialog/0.40.1440.860@0.40.1440.860" timestamp="1605610393604" />
-    <state x="500" y="225" key="FileChooserDialogImpl" timestamp="1606100278307">
+    <state x="500" y="225" key="FileChooserDialogImpl" timestamp="1606220592572">
       <screen x="0" y="40" width="1440" height="860" />
     </state>
-    <state x="500" y="225" key="FileChooserDialogImpl/0.40.1440.860@0.40.1440.860" timestamp="1606100278307" />
-    <state x="441" y="211" width="540" height="524" key="StructurePopup" timestamp="1606107226498">
+    <state x="500" y="225" key="FileChooserDialogImpl/0.40.1440.860@0.40.1440.860" timestamp="1606220592572" />
+    <state x="441" y="211" width="540" height="524" key="StructurePopup" timestamp="1606107300983">
       <screen x="0" y="40" width="1440" height="860" />
     </state>
-    <state x="441" y="211" width="540" height="524" key="StructurePopup/0.40.1440.860@0.40.1440.860" timestamp="1606107226498" />
+    <state x="441" y="211" width="540" height="524" key="StructurePopup/0.40.1440.860@0.40.1440.860" timestamp="1606107300983" />
     <state x="427" y="174" width="585" height="592" key="find.popup" timestamp="1605966600384">
       <screen x="0" y="40" width="1440" height="860" />
     </state>

@@ -33,19 +33,18 @@ html {
   left: 0;
   width: 100%;
   max-height: 80px;
-  padding: 0 15px;
   z-index: 15;
   background: black;
+  border-bottom: 1px solid white;
 }
-
 
 .header_wrap {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 80px;
-  border-bottom: 1px solid white;
   margin-bottom: 100px;
+  padding: 0 15px;
 }
 
 .header_logo {
@@ -58,6 +57,7 @@ html {
   display: flex;
   flex: 1 1 33.333%;
   justify-content: center;
+  transition: all linear .2s;
 }
 
 .header_menu {
@@ -376,6 +376,7 @@ html {
 
 .slider {
   background: #181818;
+  padding-bottom: 75px;
 }
 
 .slider_wrap {
@@ -398,6 +399,10 @@ html {
 .slider_container {
   display: flex;
   margin: 30px 0;
+  width: 100%;
+  max-width: 950px;
+  justify-content: center;
+  overflow-x: hidden;
 }
 
 .slider_item {
@@ -406,20 +411,100 @@ html {
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 150px;
+  min-width: 290px;
   background: white;
+  border-radius: 20px;
+  margin: 0 10px;
+  transition: all ease .2s;
 }
 
 .slider_title {
   font-size: 24px;
   color: #181818;
   margin: 25px 0;
+  border-bottom: 1px solid black;
+  padding-bottom: 25px;
 }
 
 .slider_description {
   font-size: 18px;
   color: #181818;
   margin: 15px 0;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.slider_block_arrows{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left_arrows{
+  display: flex;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  span{
+    top: 50%;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+  }
+  span:after{
+    content: '';
+    width: 10px;
+    height: 3px;
+    transform: rotate(-35deg);
+    transform-origin: top left;
+    background-color: white;
+    position: absolute;
+  }
+  span:before{
+    content: '';
+    transform: rotate(35deg);
+    transform-origin: bottom left;
+    width: 10px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+  }
+}
+
+.right_arrows{
+  display: flex;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  span{
+    top: 50%;
+    right: 0;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+  }
+  span:after{
+    content: '';
+    width: 10px;
+    height: 3px;
+    right: 0;
+    transform: rotate(35deg);
+    transform-origin: top right;
+    background-color: white;
+    position: absolute;
+  }
+  span:before{
+    content: '';
+    transform: rotate(-35deg);
+    transform-origin: bottom right;
+    width: 10px;
+    height: 3px;
+    right: 0;
+    background-color: white;
+    position: absolute;
+  }
 }
 
 
@@ -506,10 +591,16 @@ html {
 
 //Media
 
-@media screen and (max-width: 785px) {
-  * {
-    transition: all linear .2s;
+@media screen and (max-width: 940px){
+  .slider_container{
+    display: flex;
+    width: 100%;
+    max-width: 290px;
+    justify-content: center;
   }
+}
+
+@media screen and (max-width: 785px) {
 
   .header_nav {
     position: absolute;
@@ -518,6 +609,7 @@ html {
     width: 100%;
     right: -120%;
     top: 100%;
+    transition: all linear .2s;
   }
 
   .header_active {
@@ -525,7 +617,8 @@ html {
     width: 100%;
     top: 100%;
     right: 0;
-    border: 1px solid white;
+    border: 3px solid white;
+    transition: all linear .2s;
   }
 
   .header_menu {
@@ -580,6 +673,7 @@ html {
       width: 30px;
       height: 3px;
       background-color: white;
+      transition: all ease .2s;
     }
 
     span:before {
@@ -589,6 +683,7 @@ html {
       width: 30px;
       height: 3px;
       background-color: white;
+      transition: all ease .2s;
     }
   }
 
@@ -596,7 +691,6 @@ html {
 
     span {
       height: 0;
-      transition: all ease .1s;
     }
 
     span:after {
