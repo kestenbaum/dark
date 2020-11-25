@@ -448,6 +448,7 @@ html {
   width: 30px;
   height: 30px;
   position: relative;
+  cursor: pointer;
   span{
     top: 50%;
     width: 25px;
@@ -480,6 +481,7 @@ html {
   width: 30px;
   height: 30px;
   position: relative;
+  cursor: pointer;
   span{
     top: 50%;
     right: 0;
@@ -619,7 +621,7 @@ html {
     width: 100%;
     top: 100%;
     right: 0;
-    border: 3px solid white;
+    border-bottom: 1px solid white;
     transition: all linear .2s;
   }
 
@@ -647,6 +649,7 @@ html {
 
   .header_burger {
     display: flex;
+    cursor: pointer;
   }
 
   .header_login {
@@ -796,7 +799,35 @@ html {
 
 @media screen and (max-width: 425px) {
   .header_login {
-    display: none;
+   a{
+     height: 30px;
+     width: 30px;
+     border-radius: 50%;
+     position: relative;
+     overflow: hidden;
+     span {
+       font-size: 0;
+      &:after, &:before{
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        background-color: white;
+        margin: 0 auto;
+        border-radius: 50%;
+      }
+       &:after {
+         width: 10px;
+         height: 10px;
+         top: 15%;
+       }
+
+       &:before {
+         width: 20px;
+         height: 20px;
+       }
+     }
+   }
   }
   .header_main {
     h1 {

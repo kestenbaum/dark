@@ -31,7 +31,6 @@ btnLeft.addEventListener('click', function () {
     slide()
 })
 
-
 function slide() {
     for (let sliderResult of sliderItem) {
         sliderResult.style.transform = `translateX(${[itemResult]}%)`
